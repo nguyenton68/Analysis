@@ -8,7 +8,9 @@
 //  version 4.0  Jan 2015 // select tg/fp acceptance
 // final version: for 2track case more
 //  *****note****  just change the part in "best_vdc_multi_track_eff" subroutine
-
+// Nguyen
+// - 04/2018: change fabs --> abs
+// - Number of argument in vdc_multi_track_eff
 
 #include <iostream>
 #include <fstream>
