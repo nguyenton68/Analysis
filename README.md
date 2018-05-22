@@ -19,9 +19,9 @@ Command to run:
     - Get n2 density inside polarized he3 cell.
     - Get n2 dilution in asymmetry analysis.
 - Details:
-  + Simulation: n2 cross section is used in this simulation. You need to be careful with inputs:
-   a, Radiation length: is it He3 or reference cell and at what density?
-   b, Before apply W cut, make sure that all W peaks are aligned
+   - Simulation: n2 cross section is used in this simulation. You need to be careful with inputs:
+     - Radiation length: is it He3 or reference cell and at what density?
+     - Before apply W cut, make sure that all W peaks are aligned
   + Extract data code:
    a, Get absolute n2 cross section: /n2_absolute_xs/get_xs.C
    b, Get n2 yield from reference cell: /pressure_curve/get_yield.C
