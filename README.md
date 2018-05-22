@@ -16,8 +16,8 @@ Command to run:
 2. N2 dilution and pressure curves:
 - The study is for 2.2 GeV elastic kinematic.
 - Purpose: 
-  a, Get n2 density inside polarized he3 cell.
-  b, Get n2 dilution in asymmetry analysis.
+   a, Get n2 density inside polarized he3 cell.
+   b, Get n2 dilution in asymmetry analysis.
 - Details:
   + Simulation: n2 cross section is used in this simulation. You need to be careful with inputs:
    a, Radiation length: is it He3 or reference cell and at what density?
