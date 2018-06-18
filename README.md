@@ -29,4 +29,12 @@ Command to run:
      - The output dat file for pressure curve, the yield is already corrected for different in radiation length: /pressure_curve/yield_atm.txt
      - Analyze the raw root file and save it into a new root file to analyze further: /pressure_curve/temp.C
      - Normalization file for all runs involved in this study: 2080 (glass), 2081-2085 (n2 ref cell), 2087 (he3).
-     Run, p0, ps1, livetime, charge, preshower lower limit, shower lower limit, cherenkov lower limit, scintillator eff, pid eff, vdc eff
+     Run, p0, ps1, livetime, charge, preshower lower limit, shower lower limit, cherenkov lower limit, scintillator eff, pid eff, vdc eff\
+     
+3. He3 elastic cross section:
+- get_xs.C: run by type analyzer get_xs.C
+  - Need input root file for he3, n2, glass runs. These root files have been applied analysis cut. Analysis cut is done by temp.C.
+  - Output is cross section in nb.
+  - Need to check: density, target length, solid angle,...
+- temp.C: apply analysis cut: 2D cut on theta, phi reconstructed angles. PID cut, W cut. Output is root files used for get cross section later
+- MC: typical input file for he3 simulation. And main code for simulate he3 elastic
